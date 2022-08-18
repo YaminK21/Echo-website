@@ -1,0 +1,416 @@
+body{
+    font-family: 'Poppins', sans-serif;
+}
+.navbar{
+    display: flex;
+    justify-content: center;
+    margin-top: 5px;
+}.logo{
+    background-image: url('./img/logo.webp');
+    padding: 5px 45px;
+    background-repeat: no-repeat;
+    margin-top: 20px;
+}
+.navbar ul{
+    display: inline-block;
+    text-decoration: none;
+    color: black;
+}
+.navbar li{
+    text-decoration: none;
+}
+.dropdown-content{
+    display: none;
+    position: absolute;
+    width: 100%;
+    overflow: auto;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+}
+.dropdown:hover .dropdown-content{
+    display: block;
+}
+.dropdown-content a{
+    display: block;
+    color: #000000;
+    padding: 5px;
+    text-decoration: none;
+}
+.dropdown-content a:hover{
+    color: #FFFFFF;
+    background-color: #0d6efd;
+}
+.btn1{
+    background-color: #081158;
+    color: bisque;
+    border-radius: 30px;
+    padding: 10px 30px;
+    text-decoration: none;
+    margin-top: 5px;
+    margin-left: 20px;
+}
+.btn1:hover{
+    color: #081158;
+    background-color: #FFFFFF;
+    border: #081158 2px solid; 
+}
+.btn1 a{
+    text-decoration: none;
+    color: bisque;
+}
+.hero{
+    display: flex;
+    justify-content: center;
+    
+}
+h1{
+    color: #081158;
+    font-size: 2.75rem;
+}
+p{
+    color: #000000;
+}
+.btn2{
+    text-decoration: none;
+    color: #081158;
+    background-color: #FFFFFF;
+    border: #081158 2px solid;
+    padding: 10px 30px;
+    border-radius: 30px;
+}
+.btn2:hover{
+    background-color: #081158;
+    color: bisque;
+}
+.main{
+    margin-top: 200px;
+    width: 500px;
+}
+.main p{
+    margin-bottom: 50px;
+}
+.hero2{
+    width: 800px;
+}
+.hero2 img{
+    margin-top: 50px;
+    margin-right: 200px;
+    height: 700px;
+} 
+.featuremain h1{
+    color: #081158;
+    font-size: 2.75rem;
+}
+.featuremain{
+    display: flex;
+    text-align: center;
+    width: 700px;
+    justify-content: center;
+}
+.parentgrid{
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 50px;
+    margin-left: 70px;
+    margin-right: 200px;
+}
+.grid1 .grid2 .grid3{
+    width: 60px;
+    margin-left: 50px;
+    text-align: center;
+}
+ h2{
+    color: #081158;
+}
+.sub1 {
+    width: 250px;
+    text-align: center;
+    margin-left: 70px;
+}
+.sub2{
+    width: 250px;
+    text-align: center;
+}
+.sub3{
+    width: 250px;
+    text-align: center;
+}
+.sub1  img{
+    height: 50px;
+}
+.sub2 img{
+    height: 50px;
+}
+.sub3 img{
+    height: 50px;
+}
+.ouragency {
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    grid-template-rows: 1fr;
+    grid-column-gap: 20px;
+    grid-row-gap: px;
+    margin-top: 100px;
+}
+.subag img{
+    max-width: 100%; 
+}
+.subag{
+    margin-left: 290px;
+}
+.ouragency2{
+    margin-right: 200px;
+}
+.ouragency2 ul{
+    margin-bottom: 50px;
+}
+.services{
+    margin-top: 50px;
+    text-align: center;
+}
+.servicetab{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+    grid-column-gap: 20px;
+    grid-row-gap: 21px;
+    margin: 50px 300px;
+
+}
+.servicetab img{
+    height: 50px;
+    margin-right: 20px;
+    margin-top: 20px;
+}
+.ser1 {
+    display: flex;
+    justify-content: space-evenly;
+    text-align: left;
+    border: #dad7d7 solid 1px;
+    padding:  10px 20px;
+}
+.ser2 {
+    display: flex;
+    justify-content: space-evenly;
+    text-align: left;
+    border: #dad7d7 solid 1px;
+    padding:  10px 20px;
+}
+.ser3 {
+    display: flex;
+    justify-content: space-evenly;
+    text-align: left;
+    border: #dad7d7 solid 1px;
+    padding:  10px 20px;
+}
+.ser4 {
+    display: flex;
+    justify-content: space-evenly;
+    text-align: left;
+    border: #dad7d7 solid 1px;
+    padding:  10px 20px;
+}
+.ser5 {
+    display: flex;
+    justify-content: space-evenly;
+    text-align: left;
+    border: #dad7d7 solid 1px;
+    padding:  10px 20px;
+}
+.ser6 {
+    display: flex;
+    justify-content: space-evenly;
+    text-align: left;
+    border: #dad7d7 solid 1px;
+    padding:  10px 20px;
+}
+.ttest1{
+    text-align: center;
+}
+.test1{
+    margin: 50px 300px;
+    text-align: center;
+}
+.testimonial img{
+    height: 50px;
+    border-radius: 40px;
+    margin-right: 10px;
+}
+.imgtest{
+    display: flex;
+    justify-content: center;
+}
+.imgtest p{
+    margin: 0;
+}
+.testimonial1{
+    max-width: 500px;
+    position: relative;
+    margin: auto;
+}
+/* Style the buttons that are used to open and close the accordion panel */
+.accordion {
+    background-color: #eee;
+    color: #444;
+    cursor: pointer;
+    padding: 18px;
+    width: 100%;
+    text-align: left;
+    border: none;
+    outline: none;
+    transition: 0.4s;
+  }
+  
+  /* Add a background color to the button if it is clicked on (add the .active class with JS), and when you move the mouse over it (hover) */
+   .accordion:hover {
+    background-color: #081158;
+  }
+  
+  /* Style the accordion panel. Note: hidden by default */
+  .panel {
+    padding: 0 18px;
+    background-color: white;
+    display: none;
+    overflow: hidden;
+  }
+  .accordion:after {
+    content: '\02795'; /* Unicode character for "plus" sign (+) */
+    font-size: 13px;
+    color: #081158;
+    float: right;
+    margin-left: 5px;
+  }
+  
+  .active:after {
+    content: "\2796"; /* Unicode character for "minus" sign (-) */
+  }
+.faq1{
+    margin: 30px 250px;
+}
+.faq h3{
+    color: #000000;
+    font-size: 1.2rem;
+}
+h3:hover{
+    color: #eee;
+}
+.faq h1{
+    margin: 20px 250px;
+    text-align: center;
+}
+.item{
+    text-align: center;
+    max-width: 450px;
+}
+.carousel{
+    margin-right: 25px;
+}
+.footer{
+    display: flex;
+    margin: 50px 200px;
+    justify-content: space-evenly;
+    background-color: rgb(197, 197, 197);
+}
+.about{
+    max-width: 400px;
+}
+small{
+    margin-top: 40px;
+}
+.copyright{
+    text-align: center;
+    font-size: 10px;
+}
+/* Responsiveness */
+@media only screen and (min-width: 1300px) and  (max-width:1500px) {
+    .main{
+        width: 500px;
+    }
+    .hero2{
+        width: 300px;
+        margin-right: 300px;
+    }
+    .featuremain{
+        margin-left: 450px
+    }
+    .parentgrid{
+        margin-left: 300px;
+    }
+}
+@media only screen and (min-width: 991px) and  (max-width:1299px){
+    .main{
+        width: 350px;
+        margin-left: 200px;
+    }
+    .featuremain{
+        margin-left: 150px;
+    }
+    .parentgrid{
+        margin-left: 150px;
+    }
+    .ouragency{
+        display: flex;
+        justify-content: center;
+        margin-right: 0;
+        margin-left: 0;
+        width: 100%;
+    }
+    .ouragency2{
+        width: 50%;
+        margin-left: 0;
+        
+    }
+    .ouragency1{
+        width: 50%;
+    }
+    .subag{
+        margin: 0;
+    }
+    .subag img{
+        height: 500px;
+    }
+    .servicetab{
+        margin-top: 50px;
+        margin-left: 30px;
+        margin-right: 20px;
+    }
+    .test1{
+        margin: 20px 200px
+    }
+    .faq1{
+        margin: 20px 100px;
+    }
+    .footer{
+        margin: 20px;
+    }
+
+}
+@media only screen and (min-width: 767px){
+    .navbar{
+        margin-left: 310px;
+        margin-right: 1500px;
+        font-size: 10px;
+        font-weight: 600;
+        justify-content: center;
+        gap: row 2px;
+    }
+    .logo{
+        padding: 2px 35px;
+        margin-top: 10px;
+    }
+    .btn1{
+        padding: 5px 15px;
+    }
+    h1{
+        font-size: 1.2rem;
+    }
+    .hero{
+        display: flex;
+        margin-left: 5px;
+    }
+    .hero1{
+        width: 50%;
+    }
+    .hero2{
+        width: 50%;
+    }
+}
